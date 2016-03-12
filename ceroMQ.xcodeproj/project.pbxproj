@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C3F08481C9420A500865BD9 /* Client.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F08461C9420A500865BD9 /* Client.c */; };
 		8C4494DC1C9416CB0093BB67 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C4494DB1C9416CB0093BB67 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8C3F08461C9420A500865BD9 /* Client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Client.c; sourceTree = "<group>"; };
 		8C4494D81C9416CB0093BB67 /* ceroMQ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ceroMQ; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4494DB1C9416CB0093BB67 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				8C4494DB1C9416CB0093BB67 /* main.c */,
+				8C3F08461C9420A500865BD9 /* Client.c */,
 			);
 			path = ceroMQ;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3F08481C9420A500865BD9 /* Client.c in Sources */,
 				8C4494DC1C9416CB0093BB67 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +241,7 @@
 				8C4494E11C9416CB0093BB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
